@@ -12,45 +12,66 @@ a {
   text-decoration: none;
 }
 
-.container {
-  max-width: 1220px;
-  padding: 0 10px;
-  margin: 0 auto;
-}
-
 body {
   /* font-family: 'Roboto', sans-serif; */
   font-family: 'Work Sans', sans-serif;
+  color: #1d253c;
 }
 
 .header {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+}
+
+.container {
   display: flex;
-  align-items: center;
   min-width: 1440px;
   height: 105px;
-  border: 1px solid green;
 }
 
 .header__logo {
   padding: 35px 65px 35px;
 }
-.go {
-}
-
 .header__inner {
   display: flex;
   justify-content: space-between;
-  width: 900px;
+  align-items: center;
+  min-width: 900px;
+  flex-grow: 1;
 }
 .header__menu {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
 }
-.header__link {
+.header__link-life {
+  margin-left: 20px;
+  font-size: 16px;
 }
-
+.header__link-why {
+  margin-left: 22px;
+  color: #007188;
+  font-size: 16px;
+}
+.header__link-help {
+  margin-left: 35px;
+  font-size: 16px;
+}
 .header__login {
   padding: 30px 60px 30px;
 }
 .header__login-login {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
 }
 .header__login-price {
+  border: 1px solid rgba(29, 37, 60, 0.2);
+  padding: 15px 30px;
+  margin-left: 35px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
 }
