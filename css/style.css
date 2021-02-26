@@ -1,48 +1,45 @@
 html {
   box-sizing: border-box;
 }
-
 *,
 *::after,
 *::before {
   box-sizing: inherit;
 }
-
 a {
   text-decoration: none;
 }
-
 body {
   /* font-family: 'Roboto', sans-serif; */
   font-family: 'Work Sans', sans-serif;
   color: #1d253c;
 }
-
 .header {
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
   border-radius: 0px;
 }
-
 .container {
-  display: flex;
-  min-width: 1440px;
-  height: 105px;
-}
-
-.header__logo {
-  padding: 35px 65px 35px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .header__inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 900px;
-  flex-grow: 1;
+  height: 105px;
+}
+.header__logo {
+  padding: 35px 65px 35px;
 }
 .header__menu {
+  display: flex;
+  align-items: center;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
+}
+.header__menu-list {
+  display: flex;
 }
 .header__link-life {
   margin-left: 20px;
@@ -52,12 +49,16 @@ body {
   margin-left: 22px;
   color: #007188;
   font-size: 16px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #007188;
 }
 .header__link-help {
   margin-left: 35px;
   font-size: 16px;
 }
 .header__login {
+  display: flex;
+  align-items: center;
   padding: 30px 60px 30px;
 }
 .header__login-login {
@@ -74,4 +75,75 @@ body {
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
+}
+
+.one {
+  height: 775px;
+}
+
+.one__inner {
+}
+.one__content {
+  display: flex;
+  flex-direction: column;
+}
+.one__headtitle {
+  padding-top: 225px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #f46752;
+}
+.one__bodytitle {
+  height: 136px;
+  width: 463px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 68px;
+  text-transform: capitalize;
+  color: #1d253c;
+  margin-bottom: 25px;
+}
+.one__text {
+  height: 66px;
+  width: 411px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: #5a6482;
+  margin-bottom: 40px;
+}
+.one__image {
+  position: absolute;
+  right: 0;
+  top: 122px;
+}
+.application-btn {
+  height: 61px;
+  width: 220px;
+  padding: 20px 60px 20px 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #f46752;
+  border: 1px solid rgba(29, 37, 60, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  position: relative;
+}
+.application-btn::after {
+  content: '';
+  position: absolute;
+  height: 11px;
+  width: 31px;
+  background-image: url('../images/arrow-btn.png');
+  top: 24px;
+  right: 26px;
 }
