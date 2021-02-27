@@ -147,3 +147,92 @@ body {
   top: 24px;
   right: 26px;
 }
+
+.two {
+  height: 645px;
+  background: #f9f5f2;
+  border-radius: 0px;
+}
+.two__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.two__images {
+  width: 50%;
+  padding-top: 85px;
+  padding-left: 170px;
+}
+.two__image {
+  width: 500px;
+  height: 435px;
+  background: #ffffff;
+  border-radius: 0px;
+  margin-bottom: 20px;
+}
+.two__images-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5a6482;
+  padding-left: 17px;
+  position: relative;
+}
+.two__images-text::before {
+  content: '';
+  position: absolute;
+  height: 8px;
+  width: 7px;
+  background-image: url(../images/two-star.png);
+  left: 0;
+}
+.two__content {
+  width: 50%;
+  padding-top: 170px;
+  padding-left: 120px;
+}
+.two__headtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #f46752;
+  margin-bottom: 25px;
+}
+.two__bodytitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 52px;
+  color: #1d253c;
+  margin-bottom: 20px;
+  width: 460px;
+}
+.two__content-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 30px;
+  color: #5a6482;
+  margin-bottom: 30px;
+  width: 460px;
+}
+.greeapplication-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #126f86;
+  position: relative;
+  padding-right: 40px;
+}
+.greeapplication-btn::before {
+  content: '';
+  position: absolute;
+  background-image: url('../images/green-arrow-btn.png');
+  width: 30px;
+  height: 10px;
+  right: 0;
+  top: 5px;
+}
