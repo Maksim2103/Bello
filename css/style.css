@@ -18,19 +18,23 @@ body {
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
   border-radius: 0px;
 }
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
 }
+
 .header__inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 105px;
 }
+
 .header__logo {
   padding: 35px 65px 35px;
 }
+
 .header__menu {
   display: flex;
   align-items: center;
@@ -38,13 +42,16 @@ body {
   font-size: 16px;
   line-height: 19px;
 }
+
 .header__menu-list {
   display: flex;
 }
+
 .header__link-life {
   margin-left: 20px;
   font-size: 16px;
 }
+
 .header__link-why {
   margin-left: 22px;
   color: #007188;
@@ -52,21 +59,25 @@ body {
   padding-bottom: 2px;
   border-bottom: 1px solid #007188;
 }
+
 .header__link-help {
   margin-left: 35px;
   font-size: 16px;
 }
+
 .header__login {
   display: flex;
   align-items: center;
   padding: 30px 60px 30px;
 }
+
 .header__login-login {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
 }
+
 .header__login-price {
   border: 1px solid rgba(29, 37, 60, 0.2);
   padding: 15px 30px;
@@ -81,12 +92,11 @@ body {
   height: 775px;
 }
 
-.one__inner {
-}
 .one__content {
   display: flex;
   flex-direction: column;
 }
+
 .one__headtitle {
   padding-top: 225px;
   font-style: normal;
@@ -96,6 +106,7 @@ body {
   text-transform: uppercase;
   color: #f46752;
 }
+
 .one__bodytitle {
   height: 136px;
   width: 463px;
@@ -107,6 +118,7 @@ body {
   color: #1d253c;
   margin-bottom: 25px;
 }
+
 .one__text {
   height: 66px;
   width: 411px;
@@ -117,11 +129,13 @@ body {
   color: #5a6482;
   margin-bottom: 40px;
 }
+
 .one__image {
   position: absolute;
   right: 0;
   top: 122px;
 }
+
 .application-btn {
   height: 61px;
   width: 220px;
@@ -138,6 +152,7 @@ body {
   border-radius: 4px;
   position: relative;
 }
+
 .application-btn::after {
   content: '';
   position: absolute;
@@ -153,15 +168,18 @@ body {
   background: #f9f5f2;
   border-radius: 0px;
 }
+
 .two__inner {
   display: flex;
   justify-content: space-between;
 }
+
 .two__images {
   width: 50%;
   padding-top: 85px;
   padding-left: 170px;
 }
+
 .two__image {
   width: 500px;
   height: 435px;
@@ -169,6 +187,7 @@ body {
   border-radius: 0px;
   margin-bottom: 20px;
 }
+
 .two__images-text {
   font-style: normal;
   font-weight: normal;
@@ -178,6 +197,7 @@ body {
   padding-left: 17px;
   position: relative;
 }
+
 .two__images-text::before {
   content: '';
   position: absolute;
@@ -186,11 +206,13 @@ body {
   background-image: url(../images/two-star.png);
   left: 0;
 }
+
 .two__content {
   width: 50%;
   padding-top: 170px;
   padding-left: 120px;
 }
+
 .two__headtitle {
   font-style: normal;
   font-weight: 600;
@@ -200,6 +222,7 @@ body {
   color: #f46752;
   margin-bottom: 25px;
 }
+
 .two__bodytitle {
   font-style: normal;
   font-weight: 600;
@@ -209,6 +232,7 @@ body {
   margin-bottom: 20px;
   width: 460px;
 }
+
 .two__content-text {
   font-style: normal;
   font-weight: normal;
@@ -218,6 +242,7 @@ body {
   margin-bottom: 30px;
   width: 460px;
 }
+
 .greeapplication-btn {
   font-style: normal;
   font-weight: 500;
@@ -227,6 +252,7 @@ body {
   position: relative;
   padding-right: 40px;
 }
+
 .greeapplication-btn::before {
   content: '';
   position: absolute;
@@ -235,4 +261,82 @@ body {
   height: 10px;
   right: 0;
   top: 5px;
+}
+
+.three {
+  height: 825px;
+  background: #ffffff;
+  border-radius: 0px;
+}
+
+.three__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+.three__content {
+  padding-top: 125px;
+  padding-left: 170px;
+  width: 50%;
+}
+
+.three__headtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #f46752;
+  margin-bottom: 25px;
+}
+
+.three__bodytitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 52px;
+  color: #1d253c;
+  margin-bottom: 35px;
+  width: 415px;
+}
+
+.three__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 30px;
+  color: #5a6482;
+  width: 480px;
+  margin-bottom: 15px;
+}
+
+.three__images {
+  position: relative;
+}
+
+.three__images-header {
+  position: absolute;
+  left: -70px;
+  top: -30px;
+}
+
+.three__images-body {
+  position: relative;
+}
+
+.three__image-body {
+  width: 540px;
+  height: 510px;
+}
+
+.three__image-footer {
+  position: absolute;
+  bottom: -28px;
+  left: -70px;
+  width: 325px;
+  height: 65px;
+  border: 1px solid black;
+  padding: 20px 10px 20px 25px;
+  background-color: #ffffff;
 }
