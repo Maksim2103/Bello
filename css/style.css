@@ -80,6 +80,8 @@ body {
 
 .header__login-price {
   border: 1px solid rgba(29, 37, 60, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
   padding: 15px 30px;
   margin-left: 35px;
   font-style: normal;
@@ -317,7 +319,7 @@ body {
 
 .three__images-header {
   position: absolute;
-  left: -70px;
+  left: -65px;
   top: -30px;
 }
 
@@ -339,4 +341,157 @@ body {
   border: 1px solid black;
   padding: 20px 10px 20px 25px;
   background-color: #ffffff;
+}
+
+.four {
+  background: #f8f8f8;
+  border-radius: 0px;
+  height: 725px;
+  position: relative;
+}
+
+.four__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.four__headertitle {
+  padding-top: 140px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f46752;
+  margin-bottom: 30px;
+}
+
+.four__bodytitle {
+  font-weight: 500;
+  font-size: 43px;
+  line-height: 52px;
+  text-align: center;
+  color: #1d253c;
+  margin-bottom: 35px;
+}
+
+.four__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 30px;
+  text-align: center;
+  color: #5a6482;
+  margin-bottom: 40px;
+  width: 1075px;
+}
+
+.four__items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.four__item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 320px;
+  height: 310px;
+  padding: 20px 30px;
+  background: #ffffff;
+  box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.04);
+  border-radius: 0px;
+}
+
+.four__item-image1 {
+  width: 105px;
+  height: 70px;
+  padding-bottom: 15px;
+}
+
+.four__item-title1 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.four__item-text1 {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 26px;
+  color: #5a6482;
+}
+.four__item-text1 span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 26px;
+  text-decoration-line: underline;
+  color: #1d253c;
+}
+
+.four__item-image2 {
+  width: 90px;
+  height: 140px;
+}
+
+.four__item-title2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.four__item-text2 {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 26px;
+  text-align: center;
+  color: #5a6482;
+}
+
+.four__item-image3 {
+  width: 260px;
+  height: 110px;
+}
+
+.four__item-title3 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  color: #1d253c;
+}
+
+.four__item-text3 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #5a6482;
+}
+
+.four__umbrella-img {
+  position: absolute;
+  top: -110px;
+}
+
+.four__dog-img {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  bottom: -30px;
+  right: 0;
+}
+
+.four__div {
+  margin: 0 auto;
+  position: relative;
+  width: 450px;
 }
